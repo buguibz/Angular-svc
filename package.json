@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "Sistema de venta de calzados",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -21,7 +21,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rudy Bernal",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
@@ -32,6 +32,7 @@
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
     "@angular/router": "~3.4.0",
+    "@angular/router-deprecated": "^2.0.0-rc.2",
 
     "angular-in-memory-web-api": "~0.2.4",
     "systemjs": "0.19.40",
@@ -43,6 +44,7 @@
     "concurrently": "^3.2.0",
     "lite-server": "^2.2.2",
     "typescript": "~2.0.10",
+    "typings": "~2.1.0",
 
     "canonical-path": "0.0.2",
     "tslint": "^3.15.1",
